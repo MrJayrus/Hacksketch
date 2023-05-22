@@ -1,5 +1,5 @@
 <p align="center">
- <img width="300px" src="https://sketchdev.000webhostapp.com/img/logo.png" align="center" alt="Hacksketch" /></p>
+ <img width="300px" src="img/Captura de pantalla 2023-05-22 023531.png" align="center" alt="Hacksketch" /></p>
 
 <details>
 <summary>Estado</summary>

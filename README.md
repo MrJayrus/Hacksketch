@@ -21,7 +21,7 @@
 <table>
   <tr>
     <td align="center">Proyecto</td>
-    <td align="center">Version</td>
+    <td align="center">Versión</td>
     <td align="center">Log</td>
     <td align="center">Link</td>
    <td align="center">SHA1</td>

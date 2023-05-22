@@ -8,7 +8,7 @@
  ·
  <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Request Feature</a>
  ·
- <a href="https://github.com/anuraghazra/github-readme-stats/discussions">Ask Question</a>
+ <a href="https://github.com/Mrjayrus/Hacksketch/discussions">Ask Question</a>
 </p>
 <h2 align="center">PROYECTOS </h2>
 <table>

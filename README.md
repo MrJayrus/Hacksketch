@@ -1,6 +1,13 @@
 <p align="center">
  <img width="300px" src="https://sketchdev.000webhostapp.com/img/logo.png" align="center" alt="Hacksketch" /></p>
 
+<details>
+<summary>Estado</summary>
+ 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrJayrus&show_icons=true&theme=transparent)
+ 
+</details>
+
 <p align="center">
  <a href="code_of_conduct.md">Código de conducta</a>
  ·

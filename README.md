@@ -1,5 +1,3 @@
-# Hacksketch
-
 ---
 Proyecto: IPVCE VIRTUAL
 Version: 1.1 (2305220) Beta

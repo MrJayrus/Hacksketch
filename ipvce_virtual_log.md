@@ -1,12 +1,11 @@
-Futuras caracteristicas:
-- Top 100 general y por materias. 
-
 Versión 1.1 (2305220) Beta
 - Retoques en la interfaz de usuario. 
 - Soporte técnico en espera.
 - Cambios en el servidor.
-- Preguntas frecuentes agregadas.
+- Preguntas Frecuentes agregadas.
+- Formularios a la espera de información.
 - Otras funcionalidades.
+- Errores corregidos.
 
 Versión 1.0 (2305200) Beta
 - Retoques en la interfaz de usuario. 

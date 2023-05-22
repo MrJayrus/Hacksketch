@@ -6,7 +6,7 @@ Versiones de la aplicación que aún presentan soporte por parte de Hacksketch.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.1 (xxxxxx)   | :white_check_mark: |
+| 1.1 | :white_check_mark: |
 | < 1.1   | :x:                |
 
 ## Informar de una vulnerabilidad

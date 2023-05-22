@@ -12,6 +12,8 @@
  <a href="code_of_conduct.md">Código de conducta</a>
  ·
  <a href="LICENSE">Licencia</a>
+  ·
+ <a href="SECURITY.md">Seguridad</a>
  ·
  <a href="https://www.youtube.com/channel/UCCAR_X7zHvdlGp7ixDjsepw">YouTube</a>
 </p>

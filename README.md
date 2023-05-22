@@ -2,13 +2,11 @@
  <img width="300px" src="https://sketchdev.000webhostapp.com/img/logo.png" align="center" alt="Hacksketch" /></p>
 
 <p align="center">
- <a href="https://github.com/MrJayrus/Hacksketch/raw/7d8ca4466dade8e3f72228771cfd1314c7e2fef5/code_of_conduct.md">Código de conducta</a>
+ <a href="code_of_conduct.md">Código de conducta</a>
  ·
- <a href="https://github.com/MrJayrus/Hacksketch/edit/main/license.md">Licencia</a>
+ <a href="LICENSE">Licencia</a>
  ·
- <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Request Feature</a>
- ·
- <a href="https://github.com/Mrjayrus/Hacksketch/discussions">Ask Question</a>
+ <a href="https://www.youtube.com/channel/UCCAR_X7zHvdlGp7ixDjsepw">YouTube</a>
 </p>
 <h2 align="center">PROYECTOS </h2>
 <table>

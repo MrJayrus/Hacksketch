@@ -22,7 +22,7 @@
     <td align="center">Version</td>
     <td align="center">Log</td>
     <td align="center">Link</td>
-   <td align="center">SHA1</td>
+   <td align="center">SHA1 del Certificado de Firma</td>
   </tr>
   <tr>
     <td align="center">IPVCE VIRTUAL</td>

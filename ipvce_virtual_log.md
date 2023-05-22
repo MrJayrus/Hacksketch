@@ -1,3 +1,6 @@
+Versión 1.1 (2305221) Beta
+- Error que no dejaba actualizar la aplicación al no cargar el link de descarga, solucionado. 
+
 Versión 1.1 (2305220) Beta
 - Retoques en la interfaz de usuario. 
 - Soporte técnico en espera.

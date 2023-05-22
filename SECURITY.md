@@ -1,21 +1,14 @@
-# Security Policy
+# Política de seguridad
 
-## Supported Versions
+## Versiones compatibles
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Versiones de la aplicación que aún presentan soporte por parte de Hacksketch.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.1 (xxxxxx)   | :white_check_mark: |
+| < 1.1   | :x:                |
 
-## Reporting a Vulnerability
+## Informar de una vulnerabilidad
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Para reportar alguna vulnerabilidad, error u otros, escibanos a nuestro equipo en [Telegram](https://t.me/hacksketch/1).

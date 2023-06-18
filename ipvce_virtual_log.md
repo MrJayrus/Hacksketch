@@ -1,4 +1,5 @@
 Versión 1.1 (2306180) Demo_3 *ACCESO ANTICIPADO*
+- Solucionado el problema que no dejaba actualizar.
 - Botón de "Soporte" cambiado por "HACKSKETCH - Github" en la página de los créditos. 
 - Pagina de Ajustes del usuario terminada. 
 - Al tocar la foto del usuario en la pagina principal, te manda a los ajustes del usuarioa no ser que no tengas iniciada la sesión. 

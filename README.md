@@ -16,6 +16,8 @@
  <a href="SECURITY.md">Seguridad</a>
  ·
  <a href="https://www.youtube.com/channel/UCCAR_X7zHvdlGp7ixDjsepw">YouTube</a>
+ ·
+ <a href="https://t.me/hacksketch">Telegram</a>
 </p>
 <h2 align="center">PROYECTOS </h2>
 <table>

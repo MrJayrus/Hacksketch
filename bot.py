@@ -9,8 +9,7 @@ from basics import *
 from admin_module import *
 
 # Inicializar el bot
-#bot = telebot.TeleBot(os.environ['BOT_API'])
-updater = Updater(token=os.environ['BOT_API'])
+bot = telebot.TeleBot(os.environ['BOT_API'])
 
 # Variables
 maintenance_mode = False
@@ -203,19 +202,18 @@ def handle_stats(message):
                     f"✏️ ID de Usuario: {user_id}"
 
     bot.reply_to(message, stats_message)
-    
-# Función para manejar la reconexión
+
+# Definir updater
+updater = Updater(token=os.environ['BOT_API'])
+
+# Iniciar la reconexión en un hilo separado
 def reconnect():
     while True:
         try:
             # Intentar establecer la conexión
-            bot.polling(none_stop=True)
+            updater.start_polling()
         except Exception as e:
             # Si ocurre un error, esperar un tiempo y volver a intentar
             print("Error de conexión:", e)
             time.sleep(5)  # Esperar 5 segundos antes de intentar nuevamente
-updater.start_polling()
-
-# Iniciar la reconexión en un hilo separado
-#reconnect_thread = threading.Thread(target=reconnect)
-#reconnect_thread.start()
+reconnect()

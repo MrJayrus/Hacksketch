@@ -238,7 +238,7 @@ def save_updated_project(message, project_info, bot):
     file_content = bot.download_file(file_path)
 
     # Obtener la ruta completa del archivo anterior
-    old_file_path = os.path.join("proyectos", project_info["file_name"])
+    old_file_path = os.path.join("/content/drive/MyDrive/Bots/db/proyectos", project_info["file_name"])
 
     # Eliminar el archivo anterior
     os.remove(old_file_path)
@@ -368,7 +368,7 @@ def delete_project(message, project_info, bot):
             json.dump(proyectos_data, f)
 
         # Eliminar el archivo asociado al proyecto
-        file_path = os.path.join("proyectos", project_info["file_name"])
+        file_path = os.path.join("/content/drive/MyDrive/Bots/db/proyectos", project_info["file_name"])
         if os.path.exists(file_path):
             os.remove(file_path)
 

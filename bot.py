@@ -2,6 +2,7 @@ import telebot
 import os
 import time
 import threading
+from telegram.ext import Updater
 from functools import wraps
 from app import *
 from projects import *

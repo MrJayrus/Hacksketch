@@ -215,5 +215,5 @@ def reconnect():
             time.sleep(5)  # Esperar 5 segundos antes de intentar nuevamente
 
 # Iniciar la reconexión en un hilo separado
-reconnect_thread = threading.Thread(target=reconnect)
-reconnect_thread.start()
+#reconnect_thread = threading.Thread(target=reconnect)
+#reconnect_thread.start()

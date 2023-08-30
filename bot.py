@@ -213,6 +213,7 @@ def reconnect():
             # Si ocurre un error, esperar un tiempo y volver a intentar
             print("Error de conexión:", e)
             time.sleep(5)  # Esperar 5 segundos antes de intentar nuevamente
+updater.start_polling()
 
 # Iniciar la reconexión en un hilo separado
 #reconnect_thread = threading.Thread(target=reconnect)

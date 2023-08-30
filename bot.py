@@ -9,7 +9,7 @@ from basics import *
 from admin_module import *
 
 # Inicializar el bot
-bot = telebot.TeleBot(5674174567:AAGJjOZod9ElDh6dTZHYYThKWqUQbu7H-WM)
+bot = telebot.TeleBot(token=5674174567:AAGJjOZod9ElDh6dTZHYYThKWqUQbu7H-WM)
 
 # Variables
 maintenance_mode = False

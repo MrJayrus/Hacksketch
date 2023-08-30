@@ -185,7 +185,7 @@ def save_project(message, bot):
         return
 
     # Obtener la ruta completa del archivo
-    file_path = os.path.join("proyectos", project_info["file_name"])
+    file_path = os.path.join("/content/drive/MyDrive/Bots/db/proyectos", project_info["file_name"])
 
     # Enviar el archivo al usuario
     bot.send_document(message.chat.id, open(file_path, "rb"))
@@ -247,7 +247,7 @@ def save_updated_project(message, project_info, bot):
     file_name = message.document.file_name
 
     # Guardar el nuevo archivo en la carpeta "proyectos"
-    with open(os.path.join("proyectos", file_name), "wb") as f:
+    with open(os.path.join("/content/drive/MyDrive/Bots/db/proyectos", file_name), "wb") as f:
         f.write(file_content)
 
     # Obtener información adicional del usuario

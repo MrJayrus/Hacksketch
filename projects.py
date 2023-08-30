@@ -4,7 +4,7 @@ import datetime
 import os
 
 # Archivo JSON para almacenar la información de los proyectos
-proyectos_file = 'proyectos.json'
+proyectos_file = '/content/Hacksketch/proyectos.json'
 
 # Manejar el comando /newproject
 def np_command(bot, message):
@@ -66,14 +66,14 @@ def get_project_file(message, project_name, visibility, key, bot):
     file_content = bot.download_file(file_path)
 
     # Crear la carpeta "proyectos" si no existe
-    if not os.path.exists("proyectos"):
-        os.makedirs("proyectos")
+    if not os.path.exists("/content/Hacksketch/proyectos"):
+        os.makedirs("/content/Hacksketch/proyectos")
 
     # Obtener el nombre original del archivo
     file_name = message.document.file_name
 
     # Guardar el archivo en la carpeta "proyectos"
-    with open(os.path.join("proyectos", file_name), "wb") as f:
+    with open(os.path.join("/content/Hacksketch/proyectos", file_name), "wb") as f:
         f.write(file_content)
 
     # Solicitar al usuario que proporcione notas sobre la versión del proyecto

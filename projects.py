@@ -4,7 +4,7 @@ import datetime
 import os
 
 # Archivo JSON para almacenar la información de los proyectos
-proyectos_file = '/content/Hacksketch/proyectos.json'
+proyectos_file = '/content/drive/MyDrive/Bot/proyectos.json'
 
 # Manejar el comando /newproject
 def np_command(bot, message):

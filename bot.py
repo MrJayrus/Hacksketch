@@ -203,17 +203,6 @@ def handle_stats(message):
 
     bot.reply_to(message, stats_message)
 
-# Definir updater
-updater = Updater(token='5674174567:AAGJjOZod9ElDh6dTZHYYThKWqUQbu7H-WM')
+# Intentar establecer la conexión
+updater.start_polling()
 
-# Iniciar la reconexión en un hilo separado
-def reconnect():
-    while True:
-        try:
-            # Intentar establecer la conexión
-            updater.start_polling()
-        except Exception as e:
-            # Si ocurre un error, esperar un tiempo y volver a intentar
-            print("Error de conexión:", e)
-            time.sleep(5)  # Esperar 5 segundos antes de intentar nuevamente
-reconnect()

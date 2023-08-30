@@ -1,6 +1,6 @@
 import json
 import telebot
-file_path = '/content/drive/MyDrive/Bot/apps.json'
+file_path = '/content/drive/MyDrive/Bots/Hacksketch/apps.json'
 #/app
 def app_command(bot, message):
     # Obtener nombre de la aplicación desde el mensaje

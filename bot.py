@@ -1,7 +1,6 @@
 import telebot
 import time
 import threading
-from telegram.ext import Updater
 from functools import wraps
 from app import *
 from projects import *
@@ -203,6 +202,5 @@ def handle_stats(message):
 
     bot.reply_to(message, stats_message)
 
-# Intentar establecer la conexión
-updater.start_polling()
-
+# Iniciar el bot
+bot.polling()

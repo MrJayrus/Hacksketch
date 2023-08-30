@@ -66,8 +66,8 @@ def get_project_file(message, project_name, visibility, key, bot):
     file_content = bot.download_file(file_path)
 
     # Crear la carpeta "proyectos" si no existe
-    if not os.path.exists("/content/Hacksketch/proyectos"):
-        os.makedirs("/content/Hacksketch/proyectos")
+    if not os.path.exists("/content/Hacksketch/proyectos/"):
+        os.makedirs("/content/Hacksketch/proyectos/")
 
     # Obtener el nombre original del archivo
     file_name = message.document.file_name

@@ -9,7 +9,8 @@ from basics import *
 from admin_module import *
 
 # Inicializar el bot
-bot = telebot.TeleBot(os.environ['BOT_API'])
+#bot = telebot.TeleBot(os.environ['BOT_API'])
+updater = Updater(token=os.environ['BOT_API'])
 
 # Variables
 maintenance_mode = False

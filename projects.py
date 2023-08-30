@@ -137,9 +137,9 @@ def pl_command(bot, message):
     lista_proyectos = "Lista de proyectos públicos:\n\n"
     for proyecto in proyectos_publicos:
         lista_proyectos += f"📂 {proyecto['name']}\n"
-        sp_info = "Puede descargar proyectos públicos con el comando: /sp"
+        lista_proyectos += "\nPuede descargar proyectos públicos con el comando: /sp"
 
-    bot.reply_to(message, lista_proyectos, sp_info)
+    bot.reply_to(message, lista_proyectos)
 
 # Manejar el comando /sp (save project)
 

@@ -1,5 +1,4 @@
 import telebot
-import os
 import time
 import threading
 from telegram.ext import Updater
@@ -10,7 +9,7 @@ from basics import *
 from admin_module import *
 
 # Inicializar el bot
-bot = telebot.TeleBot(os.environ['BOT_API'])
+bot = telebot.TeleBot(5674174567:AAGJjOZod9ElDh6dTZHYYThKWqUQbu7H-WM)
 
 # Variables
 maintenance_mode = False
@@ -205,7 +204,7 @@ def handle_stats(message):
     bot.reply_to(message, stats_message)
 
 # Definir updater
-updater = Updater(token=os.environ['BOT_API'])
+updater = Updater(token=5674174567:AAGJjOZod9ElDh6dTZHYYThKWqUQbu7H-WM)
 
 # Iniciar la reconexión en un hilo separado
 def reconnect():

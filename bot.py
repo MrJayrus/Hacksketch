@@ -41,6 +41,17 @@ def increment_usage_count(func):
         func(message)
     return wrapped
 
+# Manejar mensajes /stop
+@bot.message_handler(commands=['stop'])
+def handle_stop(message):
+    user_id = message.from_user.id
+    if user_id == 1676639963:  # Cambia este número por tu ID de usuario de Telegram
+        bot.reply_to(message, "Apagando bot.")
+        # Detener la ejecución del bot
+        raise SystemExit
+    else:
+        bot.reply_to(message, "Acceso denegado!")
+
 # Manejar mensajes /opmenu
 @bot.message_handler(commands=['opmenu'])
 @check_maintenance

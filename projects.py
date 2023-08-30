@@ -136,9 +136,10 @@ def pl_command(bot, message):
     # Crear un mensaje con la lista de proyectos públicos
     lista_proyectos = "Lista de proyectos públicos:\n\n"
     for proyecto in proyectos_publicos:
-        lista_proyectos += f"📂 {proyecto['name']}\n\nPuede descargar proyectos con el comando /sp"
+        lista_proyectos += f"📂 {proyecto['name']}\n"
+        sp_info = "Puede descargar proyectos públicos con el comando: /sp"
 
-    bot.reply_to(message, lista_proyectos)
+    bot.reply_to(message, lista_proyectos, sp_info)
 
 # Manejar el comando /sp (save project)
 
@@ -171,7 +172,7 @@ def save_project(message, bot):
 
     # Verificar si el usuario envió 'cancelar'
     if project_name == 'cancelar':
-        bot.reply_to(message, "Operación cancelada. No se guardó ningún proyecto.")
+        bot.reply_to(message, "Operación cancelada.")
         return
 
     # Cargar datos de proyectos desde el archivo

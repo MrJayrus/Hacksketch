@@ -19,3 +19,6 @@
  ·
  <a href="https://t.me/hacksketch">Telegram</a>
 </p>
+
+<p align="center">
+Bienvenido al repositorio de Hacksketch. Actualmente alojando nuestro bot de telegram.</p>

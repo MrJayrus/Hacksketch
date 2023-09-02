@@ -1,4 +1,5 @@
 import telebot
+import os
 import time
 import threading
 from functools import wraps
@@ -8,7 +9,7 @@ from basics import *
 from admin_module import *
 
 # Inicializar el bot
-bot = telebot.TeleBot(token='5674174567:AAGJjOZod9ElDh6dTZHYYThKWqUQbu7H-WM')
+bot = telebot.TeleBot(os.environ['BOT_API'])
 
 # Variables
 maintenance_mode = False
@@ -39,17 +40,6 @@ def increment_usage_count(func):
         usage_count += 1
         func(message)
     return wrapped
-
-# Manejar mensajes /stop
-@bot.message_handler(commands=['stop'])
-def handle_stop(message):
-    user_id = message.from_user.id
-    if user_id == 1676639963:  # Cambia este número por tu ID de usuario de Telegram
-        bot.reply_to(message, "Apagando bot.")
-        # Detener la ejecución del bot
-        raise SystemExit
-    else:
-        bot.reply_to(message, "Acceso denegado!")
 
 # Manejar mensajes /opmenu
 @bot.message_handler(commands=['opmenu'])
@@ -201,6 +191,18 @@ def handle_stats(message):
                     f"✏️ ID de Usuario: {user_id}"
 
     bot.reply_to(message, stats_message)
+    
+# Función para manejar la reconexión
+def reconnect():
+    while True:
+        try:
+            # Intentar establecer la conexión
+            bot.polling(none_stop=True)
+        except Exception as e:
+            # Si ocurre un error, esperar un tiempo y volver a intentar
+            print("Error de conexión:", e)
+            time.sleep(5)  # Esperar 5 segundos antes de intentar nuevamente
 
-# Iniciar el bot
-bot.polling()
+# Iniciar la reconexión en un hilo separado
+reconnect_thread = threading.Thread(target=reconnect)
+reconnect_thread.start()

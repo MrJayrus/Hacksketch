@@ -5,7 +5,7 @@ import os
 
 # Archivo JSON para almacenar la información de los proyectos
 proyectos_file = '/content/drive/MyDrive/Bots/db/proyectos.json'
-
+proyectos_folder = '/proyectos/'
 # Manejar el comando /newproject
 def np_command(bot, message):
     bot.reply_to(message, "¡Bienvenido al asistente de creación de proyectos! 📂\n\nPor favor, proporciona el nombre del proyecto:")
@@ -66,14 +66,14 @@ def get_project_file(message, project_name, visibility, key, bot):
     file_content = bot.download_file(file_path)
 
     # Crear la carpeta "proyectos" si no existe
-    if not os.path.exists("/content/drive/MyDrive/Bots/db/proyectos/"):
-        os.makedirs("/content/drive/MyDrive/Bots/db/proyectos/")
+    if not os.path.exists(proyectos_folder):
+        os.makedirs(proyectos_folder)
 
     # Obtener el nombre original del archivo
     file_name = message.document.file_name
 
     # Guardar el archivo en la carpeta "proyectos"
-    with open(os.path.join("/content/drive/MyDrive/Bots/db/proyectos", file_name), "wb") as f:
+    with open(os.path.join(proyectos_folder, file_name), "wb") as f:
         f.write(file_content)
 
     # Solicitar al usuario que proporcione notas sobre la versión del proyecto
@@ -185,7 +185,7 @@ def save_project(message, bot):
         return
 
     # Obtener la ruta completa del archivo
-    file_path = os.path.join("/content/drive/MyDrive/Bots/db/proyectos", project_info["file_name"])
+    file_path = os.path.join(proyectos_folder, project_info["file_name"])
 
     # Enviar el archivo al usuario
     bot.send_document(message.chat.id, open(file_path, "rb"))
@@ -238,7 +238,7 @@ def save_updated_project(message, project_info, bot):
     file_content = bot.download_file(file_path)
 
     # Obtener la ruta completa del archivo anterior
-    old_file_path = os.path.join("/content/drive/MyDrive/Bots/db/proyectos", project_info["file_name"])
+    old_file_path = os.path.join(proyectos_folder, project_info["file_name"])
 
     # Eliminar el archivo anterior
     os.remove(old_file_path)
@@ -247,7 +247,7 @@ def save_updated_project(message, project_info, bot):
     file_name = message.document.file_name
 
     # Guardar el nuevo archivo en la carpeta "proyectos"
-    with open(os.path.join("/content/drive/MyDrive/Bots/db/proyectos", file_name), "wb") as f:
+    with open(os.path.join(proyectos_folder, file_name), "wb") as f:
         f.write(file_content)
 
     # Obtener información adicional del usuario
@@ -368,7 +368,7 @@ def delete_project(message, project_info, bot):
             json.dump(proyectos_data, f)
 
         # Eliminar el archivo asociado al proyecto
-        file_path = os.path.join("/content/drive/MyDrive/Bots/db/proyectos", project_info["file_name"])
+        file_path = os.path.join(proyectos_folder, project_info["file_name"])
         if os.path.exists(file_path):
             os.remove(file_path)
 

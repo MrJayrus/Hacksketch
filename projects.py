@@ -4,7 +4,7 @@ import datetime
 import os
 
 # Archivo JSON para almacenar la información de los proyectos
-proyectos_file = '/content/drive/MyDrive/Bots/db/proyectos.json'
+proyectos_file = 'proyectos.json'
 proyectos_folder = '/proyectos/'
 # Manejar el comando /newproject
 def np_command(bot, message):

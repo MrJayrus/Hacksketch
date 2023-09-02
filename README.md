@@ -27,6 +27,7 @@ Bienvenido al repositorio de Hacksketch. Actualmente alojando nuestro bot de tel
 ```
 pip install -r requirements.txt (pip debe estar instalado)
 git clone https://github.com/MrJayrus/Hacksketch.git
-python /_RUTA DE INSTALACION_/bot.py
+python /*RUTA DE INSTALACION*/bot.py
 ```
 > Para instalar PIP debe ejecutar el comando _apt install pip_.
+> Tambien se debe crear una carpeta llamada: *proyectos* y dos archivos llamados: *proyectos.json* y *apps.json* ambos con el texto ***[]*** y en formato **UTF-8**.

@@ -13,9 +13,6 @@ bot = telebot.TeleBot(os.environ['BOT_API'])
 
 # Variables
 maintenance_mode = False
-usage_count = 1
-
-# Variable para almacenar la cantidad de veces que el bot es usado
 usage_count = 0
 
 # Variable para almacenar el tiempo de inicio del bot

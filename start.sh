@@ -1,0 +1,1 @@
+export BOT_API=5674174567:AAEY0jH6SIcKIpt81kv44IFex-6oxyZpFiE && python bot.py

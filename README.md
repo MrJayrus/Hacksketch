@@ -27,7 +27,7 @@ Bienvenido al repositorio de Hacksketch. Actualmente alojando nuestro bot de tel
 ```
 pip install -r requirements.txt (pip debe estar instalado)
 git clone https://github.com/MrJayrus/Hacksketch.git
-Abre **bot.py** y cambia: **bot = telebot.TeleBot(os.environ['BOT_API'])** por **bot = telebot.TeleBot(TU_API_AQUI)**
+Abre "bot.py" y cambia: "bot = telebot.TeleBot(os.environ['BOT_API'])" por "bot = telebot.TeleBot(TU_API_AQUI)"
 python /*RUTA DE INSTALACION*/bot.py
 ```
 > Para instalar PIP debe ejecutar el comando _apt install pip_.

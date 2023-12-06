@@ -4,8 +4,8 @@ import datetime
 import os
 
 # Archivo JSON para almacenar la información de los proyectos
-proyectos_file = '../db/proyectos.json'
-proyectos_folder = '../db/proyectos/'
+proyectos_file = '/db/proyectos.json'
+proyectos_folder = '/db/proyectos/'
 # Manejar el comando /newproject
 def np_command(bot, message):
     bot.reply_to(message, "¡Bienvenido al asistente de creación de proyectos! 📂\n\nPor favor, proporciona el nombre del proyecto:")

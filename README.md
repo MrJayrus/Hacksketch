@@ -1,8 +1,8 @@
 <p align="center">
- <img width="300px" src="img/Captura de pantalla 2023-05-22 023531.png" align="center" alt="Hacksketch" /></p>
+ <img width="300px" src="img/logo.png" align="center" alt="Hacksketch" /></p>
 
 <details>
-<summary>Estado</summary>
+<summary>Autor</summary>
  
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrJayrus&show_icons=true&theme=transparent)
  
@@ -15,7 +15,7 @@
   ·
  <a href="SECURITY.md">Seguridad</a>
  ·
- <a href="https://t.me/hacksketch">Telegram</a>
+ <a href="https://t.me/+6FTR-rYmerhiYzJh">Telegram</a>
  ·
  <a href="https://www.youtube.com/channel/UCCAR_X7zHvdlGp7ixDjsepw">YouTube</a>
 </p>
@@ -27,6 +27,7 @@ Bienvenido al repositorio de Hacksketch. Actualmente alojando nuestro bot de tel
 ```
 pip install -r requirements.txt (pip debe estar instalado)
 git clone https://github.com/MrJayrus/Hacksketch.git
+Abre **bot.py** y cambia: **bot = telebot.TeleBot(os.environ['BOT_API'])** por **bot = telebot.TeleBot(TU_API_AQUI)**
 python /*RUTA DE INSTALACION*/bot.py
 ```
 > Para instalar PIP debe ejecutar el comando _apt install pip_.

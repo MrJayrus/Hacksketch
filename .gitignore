@@ -1,10 +1,8 @@
-# Carpetas
-#/img/
+# Imagen del logo
+/img/
 
 # Base de datos local
 /db/
-
-# Archivos
 
 # Contiene la API privada del bot
 start.sh

@@ -18,7 +18,7 @@ maintenance_mode = False
 usuarios_permitidos = [676639963, 1234567890]
 usage_count = 1
 start_time = time.time()
-id_file = '/db/id.json'
+id_file = 'db/id.json'
 
 # Función para guardar la ID de un usuario
 def save_user_id(user_id):

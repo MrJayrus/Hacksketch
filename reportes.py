@@ -3,12 +3,12 @@ import json
 import os
 
 # Archivo JSON para almacenar la información de los proyectos
-proyectos_file = '../db/reportes.json'
-apps_db = '../db/apps.json'
-proj_db = '../db/proyectos.json'
+proyectos_file = '/db/reportes.json'
+apps_db = 'db/apps.json'
+proj_db = 'db/proyectos.json'
 
 # Crear el bot
-bot = telebot.TeleBot('5674174567:AAGJjOZod9ElDh6dTZHYYThKWqUQbu7H-WM')
+bot = telebot.TeleBot('5674174567:AAEY0jH6SIcKIpt81kv44IFex-6oxyZpFiE')
 
 # Manejar el comando /start
 @bot.message_handler(commands=['start'])
@@ -34,7 +34,7 @@ def get_report_type(message):
         bot.reply_to(message, "Opción no válida. Por favor, elige entre 'Aplicación' o 'Proyecto'.")
         return
 
-    bot.reply_to(message, "Por favor envíame el nombre de la app/proyecto que tiene error:")
+    bot.reply_to(message, "Por favor envíame el nombre:")
     bot.register_next_step_handler(message, lambda m: get_pid(m, type))
 
 def get_pid(message, type):

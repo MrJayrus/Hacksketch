@@ -7,7 +7,7 @@ from telebot import types
 anuncios = []
 
 # Nombre del archivo de anuncios
-ads_file = '../db/ads.json'
+ads_file = 'db/ads.json'
 
 # Cargar anuncios desde el archivo
 def load_ads():

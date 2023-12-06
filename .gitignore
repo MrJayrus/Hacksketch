@@ -6,3 +6,6 @@
 
 # Contiene la API privada del bot
 start.sh
+
+# Carpeta cache de Python
+/__pycache__/

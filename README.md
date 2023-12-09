@@ -12,7 +12,7 @@
  <a href="code_of_conduct.md">Código de conducta</a>
  ·
  <a href="LICENSE">Licencia</a>
-  ·
+ ·
  <a href="SECURITY.md">Seguridad</a>
  ·
  <a href="https://t.me/+6FTR-rYmerhiYzJh">Telegram</a>
@@ -33,3 +33,4 @@ python /*RUTA DE INSTALACION*/bot.py
 > Para instalar PIP debe ejecutar el comando _apt install pip_.
 > Tambien se debe crear una carpeta llamada: *proyectos* y dos archivos llamados: *proyectos.json* y *apps.json* ambos con el texto ***[]*** y en formato **UTF-8**.
 > Y para ejecutar el bot, antes debe ejecutar el código siguiente con el API de su bot: *export BOT_API=**API AQUÍ***
+- GJDHBGFJHDBGJFHBGFJHGBJFGBJBDJGFBDJFHBGJBDGFJFBGJHBJFDHGJHBFJF

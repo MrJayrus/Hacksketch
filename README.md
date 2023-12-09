@@ -33,4 +33,3 @@ python /*RUTA DE INSTALACION*/bot.py
 > Para instalar PIP debe ejecutar el comando _apt install pip_.
 > Tambien se debe crear una carpeta llamada: *proyectos* y dos archivos llamados: *proyectos.json* y *apps.json* ambos con el texto ***[]*** y en formato **UTF-8**.
 > Y para ejecutar el bot, antes debe ejecutar el código siguiente con el API de su bot: *export BOT_API=**API AQUÍ***
-trertertert

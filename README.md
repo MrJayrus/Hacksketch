@@ -34,5 +34,8 @@ python /*RUTA DE INSTALACION*/bot.py
 > Tambien se debe crear una carpeta llamada: *proyectos* y dos archivos llamados: *proyectos.json* y *apps.json* ambos con el texto ***[]*** y en formato **UTF-8**.
 > Y para ejecutar el bot, antes debe ejecutar el código siguiente con el API de su bot: *export BOT_API=**API AQUÍ***
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date" frameBorder="0"></iframe>
- <img width="300px" src="[img/logo.png](https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date)https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date" align="center" alt="Hacksketch" /></p>
+<p align="center">
+  <a href="https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date">
+    <img src="https://api.star-history.com/svg?repos=MrJayrus/Hacksketch&Date" alt="Star History Chart">
+  </a>
+</p>

@@ -16,23 +16,18 @@
  <a href="SECURITY.md">Seguridad</a>
  ·
  <a href="https://t.me/+6FTR-rYmerhiYzJh">Telegram</a>
- ·
- <a href="https://www.youtube.com/channel/UCCAR_X7zHvdlGp7ixDjsepw">YouTube</a>
 </p>
 
 <p align="center">
 Bienvenido al repositorio de Hacksketch. Actualmente alojando nuestro bot de telegram.</p>
 
-### Pasos para instalar o clonar HacksketchBot:
+### Pasos para instalar HacksketchBot:
 ```
-pip install -r requirements.txt (pip debe estar instalado)
 git clone https://github.com/MrJayrus/Hacksketch.git
-Abre "bot.py" y cambia: "bot = telebot.TeleBot(os.environ['BOT_API'])" por "bot = telebot.TeleBot(TU_API_AQUI)"
-python /*RUTA DE INSTALACION*/bot.py
+pip install -r requirements.txt (pip debe estar instalado)
 ```
-> Para instalar PIP debe ejecutar el comando _apt install pip_.
-> Tambien se debe crear una carpeta llamada: *proyectos* y dos archivos llamados: *proyectos.json* y *apps.json* ambos con el texto ***[]*** y en formato **UTF-8**.
-> Y para ejecutar el bot, antes debe ejecutar el código siguiente con el API de su bot: *export BOT_API=**API AQUÍ***
+
+---
 
 <p align="center">
   <a href="https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date">

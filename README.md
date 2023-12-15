@@ -35,3 +35,4 @@ python /*RUTA DE INSTALACION*/bot.py
 > Y para ejecutar el bot, antes debe ejecutar el código siguiente con el API de su bot: *export BOT_API=**API AQUÍ***
 
 <iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date" frameBorder="0"></iframe>
+ <img width="300px" src="[img/logo.png](https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date)https://star-history.com/embed?secret=#MrJayrus/Hacksketch&Date" align="center" alt="Hacksketch" /></p>

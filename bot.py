@@ -1,5 +1,4 @@
 import telebot
-import os
 import time
 import threading
 from functools import wraps
@@ -11,7 +10,7 @@ from admin_module import *
 import datetime
 
 # Inicializar el bot
-bot = telebot.TeleBot(os.environ['BOT_API'])
+bot = telebot.TeleBot('5674174567:AAEY0jH6SIcKIpt81kv44IFex-6oxyZpFiE')
 
 # Variables
 maintenance_mode = False
@@ -122,11 +121,11 @@ def notify(message, user_ids):
     bot.reply_to(message, f"Se envió la notificación a {len(user_ids)} usuarios.")
 
 # Manejar mensajes /ads
-@bot.message_handler(commands=['ads'])
-@check_maintenance
-@increment_usage_count
-def handle_np(message):
-    ads_command(bot, message)
+#@bot.message_handler(commands=['ads'])
+#@check_maintenance
+#@increment_usage_count
+#def handle_np(message):
+#    ads_command(bot, message)
 
 # Manejar mensajes /np
 @bot.message_handler(commands=['np'])
